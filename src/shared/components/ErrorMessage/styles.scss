@@ -1,0 +1,14 @@
+@import 'shared/styles/variables.scss';
+
+.error-block {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.reload-button {
+    cursor: pointer;
+    text-decoration: underline;
+}

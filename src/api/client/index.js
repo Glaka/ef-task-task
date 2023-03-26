@@ -21,7 +21,7 @@ const link = new HttpLink({
 const client = new ApolloClient({
     uri: 'https://test-task.entireframework.com/cms/graphql',
     cache,
-    // link,
+    link,
 });
 
 export default client;

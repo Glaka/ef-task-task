@@ -1,26 +1,9 @@
 import React from 'react';
-import { normalizeUrl } from './helpers';
-import MenuItem from './MenuItem';
 import './styles.scss';
 
-const MenuComponent = ({ dataReady, data, pathname }) => (
+const MenuComponent = ({ children }) => (
     <div className="menu">
-        <ul className="menu__list">
-            {dataReady
-                ? data.menuItems.data.map((itemData) => {
-                      const { title, url } = itemData.attributes;
-                      const normalizedUrl = normalizeUrl(url);
-                      return (
-                          <MenuItem
-                              key={itemData.id}
-                              title={title}
-                              url={normalizedUrl}
-                              pathname={pathname}
-                          />
-                      );
-                  })
-                : null}
-        </ul>
+        <ul className="menu__list">{children}</ul>
     </div>
 );
 
