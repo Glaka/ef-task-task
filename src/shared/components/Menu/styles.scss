@@ -36,7 +36,8 @@
         &--active {
             margin-bottom: 0;
             .menu__list-item-link {
-                max-height: 0;
+                transform: translateY(-100%) scaleY(0);
+                margin-top: -60px;
             }
         }
     }
@@ -45,8 +46,10 @@
         background-color: $button;
         text-decoration: none;
         display: block;
-        max-height: 60px;
-        transition: max-height 1s ease, background-color 0.3s ease;
+        transition: transition 1s ease, margin-top 1s ease,
+            background-color 0.3s ease;
+        margin-top: 0;
+        will-change: transition, margin-top, background-color;
     }
     &__list-item-link-text {
         line-height: 1;
