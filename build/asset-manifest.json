@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00ce0654.css",
+    "main.js": "/static/js/main.cbf423c3.js",
+    "static/js/787.3007ff34.chunk.js": "/static/js/787.3007ff34.chunk.js",
+    "static/media/IBMPlexMono-Regular.ttf": "/static/media/IBMPlexMono-Regular.1509e8d24f8562f776e4.ttf",
+    "index.html": "/index.html",
+    "main.00ce0654.css.map": "/static/css/main.00ce0654.css.map",
+    "main.cbf423c3.js.map": "/static/js/main.cbf423c3.js.map",
+    "787.3007ff34.chunk.js.map": "/static/js/787.3007ff34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00ce0654.css",
+    "static/js/main.cbf423c3.js"
+  ]
+}
