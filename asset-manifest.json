@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ef-task-task/static/css/main.4569b7c0.css",
+    "main.js": "/ef-task-task/static/js/main.1102e40e.js",
+    "static/js/787.3007ff34.chunk.js": "/ef-task-task/static/js/787.3007ff34.chunk.js",
+    "static/media/IBMPlexMono-Regular.ttf": "/ef-task-task/static/media/IBMPlexMono-Regular.1509e8d24f8562f776e4.ttf",
+    "index.html": "/ef-task-task/index.html",
+    "main.4569b7c0.css.map": "/ef-task-task/static/css/main.4569b7c0.css.map",
+    "main.1102e40e.js.map": "/ef-task-task/static/js/main.1102e40e.js.map",
+    "787.3007ff34.chunk.js.map": "/ef-task-task/static/js/787.3007ff34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4569b7c0.css",
+    "static/js/main.1102e40e.js"
+  ]
+}
